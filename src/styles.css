@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.bg-main {
+  background-color: #ff7f5c;
+}
+.text-main {
+  color: #ff7f5c;
+}
+
+.fitwidth {
+  width: fit-content;
+}
+
+.text-global {
+  color: #3d5161;
+}
+.container-bg {
+  background-color: #f9f5f3;
+
+}
+.dot {
+  height: 7px;
+  width: 7px;
+  background-color: #ff7f5c;
+  border-radius: 50%;
+  display: inline-block;
+}
+

@@ -1,0 +1,16 @@
+
+.smallwidth {
+  width: 25px;
+}
+
+.rounded-end-top {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+
+}
+
+.mid-width {
+  width: 40px;
+}
+
+

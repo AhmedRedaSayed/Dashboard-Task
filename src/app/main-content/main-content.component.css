@@ -1,0 +1,37 @@
+.card-color {
+  background-color: #f4dbd4;
+}
+
+.radius {
+  border-radius: 5%;
+}
+
+.fs-small {
+  font-size: 15px;
+}
+.arrow-color {
+  color: #00cbc0;
+}
+
+.mouse-pointer {
+  cursor: pointer;
+}
+
+
+.dot2 {
+  height: 12px;
+  width: 12px;
+  background-color: #b9cde2;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.btnbordernone {
+  border: none;
+  padding: 10px 20px;
+}
+
+.brdrbot {
+  border-bottom: solid #ff7f5c 2px;
+  color: #ff7f5c;
+}

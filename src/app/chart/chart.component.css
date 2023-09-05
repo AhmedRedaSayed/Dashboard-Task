@@ -1,0 +1,35 @@
+.chartContainer {
+  position: relative;
+  margin: auto;
+  height:90vh;
+  width:90vh;
+ }
+
+ .bar
+ {
+
+  width: 80%;
+  height: 6px;
+  border-radius: 6px;
+  background-color:#F4DBD4;
+ }
+ .bar1
+ {
+
+  width: 80%;
+  height: 6px;
+  border-radius: 6px;
+  background-color:#B9CDE2;
+ }
+ .percentage
+ {
+  background-color: #ff7f5c;
+  border-radius: 6px;
+  width: 40%;
+  height: 100%;
+ }
+
+ .text-color
+{
+  color: #B9CDE2;
+}
