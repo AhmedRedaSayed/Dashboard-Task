@@ -42,7 +42,7 @@
         <i class="fa-solid fa-caret-up arrow-color"></i>
         <span class="arrow-color px-2">20</span>
       </div>
-    </div>
+
     <div class="d-flex justify-content-end py-5">
       <button
         [ngClass]="{
@@ -76,27 +76,31 @@
           />
           <span>STATION NAME DUMMY</span>
         </div>
-        <div class="card-body d-flex">
-          <div class="col-md-2">
-            <p>Total Sales</p>
-          </div>
-          <div class="col-md-2">
-            <p>62,721 m <sup>3</sup></p>
-          </div>
-          <div class="col-md-2">
-            <p>Compression State</p>
-          </div>
-          <div class="col-md-2">
-            <p>Compression</p>
-          </div>
-          <div class="col-md-2">
-            <p>Max Transaction /hour</p>
-          </div>
-          <div class="col-md-2">
-            <p>20</p>
-          </div>
+        <div class="card-body row">
+
+            <div class="col-md-2">
+              <p>Total Sales</p>
+            </div>
+            <div class="col-md-2">
+              <p>62,721 m <sup>3</sup></p>
+            </div>
+            <div class="col-md-2">
+              <p>Compression State</p>
+            </div>
+            <div class="col-md-2">
+              <p>Compression</p>
+            </div>
+            <div class="col-md-2">
+              <p>Max Transaction /hour</p>
+            </div>
+            <div class="col-md-2">
+              <p>20</p>
+            </div>
+
+
         </div>
-        <div class="card-body d-flex">
+        <div class="card-body row">
+
           <div class="col-md-2">
             <p>Total Value</p>
           </div>
@@ -115,6 +119,7 @@
           <div class="col-md-2">
             <p>8-1-2021 | 10:16 PM</p>
           </div>
+
         </div>
       </div>
       <div class="card mt-3">
@@ -127,45 +132,49 @@
           />
           <span>STATION NAME DUMMY</span>
         </div>
-        <div class="card-body d-flex">
-          <div class="col-md-2">
-            <p>Total Sales</p>
-          </div>
-          <div class="col-md-2">
-            <p>62,721 m <sup>3</sup></p>
-          </div>
-          <div class="col-md-2">
-            <p>Compression State</p>
-          </div>
-          <div class="col-md-2">
-            <p>Compression</p>
-          </div>
-          <div class="col-md-2">
-            <p>Max Transaction /hour</p>
-          </div>
-          <div class="col-md-2">
-            <p>20</p>
-          </div>
+        <div class="card-body row">
+
+            <div class="col-md-2">
+              <p>Total Sales</p>
+            </div>
+            <div class="col-md-2">
+              <p>62,721 m <sup>3</sup></p>
+            </div>
+            <div class="col-md-2">
+              <p>Compression State</p>
+            </div>
+            <div class="col-md-2">
+              <p>Compression</p>
+            </div>
+            <div class="col-md-2">
+              <p>Max Transaction /hour</p>
+            </div>
+            <div class="col-md-2">
+              <p>20</p>
+            </div>
+
         </div>
-        <div class="card-body d-flex">
-          <div class="col-md-2">
-            <p>Total Value</p>
-          </div>
-          <div class="col-md-2">
-            <p>550 EGP</p>
-          </div>
-          <div class="col-md-2">
-            <p>Total Transaction Count</p>
-          </div>
-          <div class="col-md-2">
-            <p>5161</p>
-          </div>
-          <div class="col-md-2">
-            <p>Max Transaction Date-Time</p>
-          </div>
-          <div class="col-md-2">
-            <p>8-1-2021 | 10:16 PM</p>
-          </div>
+        <div class="card-body row">
+
+            <div class="col-md-2">
+              <p>Total Value</p>
+            </div>
+            <div class="col-md-2">
+              <p>550 EGP</p>
+            </div>
+            <div class="col-md-2">
+              <p>Total Transaction Count</p>
+            </div>
+            <div class="col-md-2">
+              <p>5161</p>
+            </div>
+            <div class="col-md-2">
+              <p>Max Transaction Date-Time</p>
+            </div>
+            <div class="col-md-2">
+              <p>8-1-2021 | 10:16 PM</p>
+            </div>
+
         </div>
       </div>
       <div class="card mt-3">
@@ -178,7 +187,8 @@
           />
           <span>STATION NAME DUMMY</span>
         </div>
-        <div class="card-body d-flex">
+        <div class="card-body row">
+
           <div class="col-md-2">
             <p>Total Sales</p>
           </div>
@@ -197,17 +207,18 @@
           <div class="col-md-2">
             <p>20</p>
           </div>
+
         </div>
       </div>
     </div>
     <div *ngIf="show">
       <div class="d-flex justify-content-between align-items-center">
         <p class="fw-bold text-global">STATIONS ACTIVATES OVERVIEW</p>
-        <div class="d-flex  justify-content-between align-items-center">
-          <p class="brdrbot text-global px-4 fw-bold">Sales</p>
-          <p class="px-4 text-global fw-bold">TRANSACTION</p>
-          <p class="px-4 text-global fw-bold">VALUE</p>
-          <p class="px-4 text-global fw-bold">COMPRESSION</p>
+        <div class=" row justify-content-between align-items-center">
+          <p class=" col-md-3 brdrbot text-global px-4 fw-bold">Sales</p>
+          <p class=" col-md-3 px-4 text-global fw-bold">TRANSACTION</p>
+          <p class=" col-md-3 px-4 text-global fw-bold">VALUE</p>
+          <p class=" col-md-3 px-4 text-global fw-bold">COMPRESSION</p>
         </div>
       </div>
       <div>
@@ -218,4 +229,5 @@
       </div>
     </div>
   </div>
+</div>
 </div>
